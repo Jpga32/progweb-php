@@ -23,7 +23,7 @@ Coloque dados nestas variáveis/constantes e faça com que o script mostre no HT
 $data = "22/04/2022";
 $nome = "Bernado santos almeida";
 $idade = 36;
-$cidade = "Acre"
+$cidade = "Acre";
 
 ?>
 <p>
