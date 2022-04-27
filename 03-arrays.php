@@ -17,7 +17,7 @@
     $alunos = ["Maria","João","Mônica"];
 
     //Sintaxe Usando Função ARRAY()
-    $cursos = array("HTML5","React","Node.js","PHP");
+    $curso = array("HTML5","React","Node.js","PHP");
 
 ?>
 
@@ -26,6 +26,7 @@
         <li> <?=$alunos[1]?> </li>
         <li> <?=$cursos[1]?> </li>
     </ul>
+    <hr>
     <h2>Array Associativo</h2>
 
    <?PHP
@@ -37,9 +38,26 @@
     ];
 ?>
 
+<h3>Acessando dados</h3>
 <p>
     O Curso  de <?=$cursos["nome"]?> tem <?=$cursos["carga_horaria"]?> Horas
 </p>
+<hr>
+
+    <h2>Funções de debug/depuração</h2>
+
+    <pre>
+    <?=print_r($curso)?>
+    </pre>
+
+    <pre>
+        <?=var_dump($curso)?>
+    </pre>
+
+
+
+
+
 
 
 </body>

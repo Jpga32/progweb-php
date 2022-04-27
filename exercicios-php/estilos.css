@@ -1,0 +1,43 @@
+body {
+    background-color: rgba(212, 252, 230, 0.781);
+}
+
+
+h1 {
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+}
+h1:hover {
+    background-color: rgb(178, 250, 250);
+    border-radius: 10px;
+}
+
+h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    display: block;
+    border-radius: 10px;
+}
+
+section p {
+    background-color: rgb(182, 220, 235);
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    display: inline-block;
+    font-weight: bold;
+    border-radius: 10px
+}
+
+section p:hover {
+    border: solid 1px;
+    background-color: lightskyblue;
+    border-radius: 5px;
+}
+
+.color {
+    background-color: lightgreen;
+    font-weight: bold;
+    border-radius: 10px;
+}
