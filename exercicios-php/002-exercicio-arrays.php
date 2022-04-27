@@ -38,7 +38,7 @@ $info2 = [
 <section>
 
 <h2>Ficha 1°:</h2>
-<p>Ola meu nome é <?=$info["nome"]?>. Tenho <?=$info["idade"]?> Anos sou do genero <?=$info["genero"]?> e meu email é : <?=$info["email"]?></p>
+<p>Ola meu nome é <?=$info["nome"]?>. Tenho <?=$info["idade"]?> Anos sou do genero <?=$info["genero"]?> e meu email: <?=$info["email"]?></p>
 
 </section>
 

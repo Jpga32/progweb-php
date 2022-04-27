@@ -27,16 +27,18 @@ section p {
     color: black;
     display: inline-block;
     font-weight: bold;
-    border-radius: 10px
+    border-radius: 10px;
+    padding: 8px;
 }
 
 section p:hover {
     border: solid 1px;
     background-color: lightskyblue;
-    border-radius: 5px;
+    border-radius: 10px;
 }
 
 .color {
+    padding: 8px;
     background-color: lightgreen;
     font-weight: bold;
     border-radius: 10px;
