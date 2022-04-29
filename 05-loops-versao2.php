@@ -64,9 +64,12 @@ for($i=1;$i<= 5;$i++){
     $i = 0;     
     $meses = ["Janeiro","Fevereiro","Março","Abril","Maio","Junho","Julho","Agosto","Setembro","Outubro","Novembro","Dezembro"];
  
-    for($i = 0;$i<count($meses);$i++){
-        echo "<ul> <li> $meses[$i] </li> </ul>". "\n";
-    }
+    reset($meses);
+
+while(key($meses) !== null){
+    echo "<ul><li>".current($meses). "</ul><br>";
+    next($meses);
+}
 
 
 ?>
