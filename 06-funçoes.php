@@ -60,8 +60,8 @@ $preco = 1578.99;
 $desconto = 75.4789;
 $salarioMinimo = 1212;
 $novoSalario = 2500.47;
-function formataNumero($valor){
-    return "R$" .number_format($valor,2,",",".");
+function formataNumero(float $valor, int $casasDecimais = 2):string{
+    return "R$" .number_format($valor,$casasDecimais,",",".");
 }
 ?>
 <hr>
@@ -76,7 +76,7 @@ function formataNumero($valor){
 <hr>
     <h2>Indução de tipos de dados</h2>
 <?php
-function calculoMedia( float $nota1, float $nota2){
+function calculoMedia( float $nota1, float $nota2):float{
     return ($nota1 + $nota2) /2;   
 }
 ?>
