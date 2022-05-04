@@ -1,0 +1,38 @@
+body {
+    background-color: rgb(243, 244, 245);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 550;
+}
+header nav a {
+    text-decoration: none;
+    color: black;
+    margin-left: 20px;
+    padding: 10px;
+}
+header nav a:hover {
+    background-color: rgba(255, 255, 255, 0.76);
+    border-radius: 10px;
+} 
+.espaco {
+    padding: 5px;
+}
+
+input {
+    border: solid 1px;
+    border-radius: 8px;
+    display: inline-block;
+    text-align: left;
+    margin-bottom: 5px;
+    padding: 5px;
+    margin-top: 15px;
+}
+ form button {
+    border: solid 2px ;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 2px;
+    margin-top: 50px;
+  
+}
