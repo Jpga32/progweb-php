@@ -59,18 +59,19 @@ for($i=1;$i<= 5;$i++){
             uma lista ordenada.(ul li)
         </p>
 
-  
+  <ol>
 <?php   
     $i = 0;     
     $meses = ["Janeiro","Fevereiro","Março","Abril","Maio","Junho","Julho","Agosto","Setembro","Outubro","Novembro","Dezembro"];
  
     for($i = 0;$i<count($meses);$i++){
-        echo "<ul> <li> $meses[$i] </li> </ul>". "\n";
-    }
-
-
 ?>
-
+ <li> <?=$meses[$i]?> </li> 
+ <?php
+ }
+ ?>
+ 
+</ol>
     <h2>foreach (para cada)</h2>
     <p>Loop exclusivo para Arrays</p>
 
