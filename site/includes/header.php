@@ -3,9 +3,9 @@ $pagina = basename($_SERVER['PHP_SELF']);
 
 switch($pagina){
     case 'index.php':$titulo = "pagina Inicial"; break;
-    case 'produto.php':$titulo = "pagina Produto"; break;
+    case 'produtos.php':$titulo = "pagina Produto"; break;
     case 'servicos.php':$titulo = "pagina Servico"; break;
-    default: $titulo = "pagina Contato"; break;
+    default:$titulo = "pagina Contato"; break;
 }
 ?>
 <!DOCTYPE html>
@@ -16,8 +16,8 @@ switch($pagina){
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
-    <title><?=$titulo?> Site XYZ</title>
-    <link rel="stylesheet" href="estilo.css">
+    <title> <?=$titulo?> Site XYZ</title>
+    <link rel="stylesheet" href="estilos.css">
 </head>
 
 <body>
@@ -31,3 +31,5 @@ switch($pagina){
         </nav>
     </header>
     <main>
+</header>    
+</body>
