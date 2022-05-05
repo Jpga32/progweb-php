@@ -10,7 +10,17 @@
     <h1>Processamento de Dados</h1>
     <hr>
 
-<?php 
+<?php    /* empty = vazio */ 
+if (empty($_POST["nome"]) || empty($_POST["email"]) ) {?>
+
+<p style="color: red;font-weight: bold;font-size: 20px;"> Por favor preencha Nome e E-mail !! </p>
+<p><a style="font-weight: bold;font-size: 20px;color: black;" href="08-formulario.html">Voltar</a></p>
+<?php
+} else {
+
+
+
+
 /* echo "<pre>";
  var_dump($_POST);
 echo "</pre>"
@@ -57,7 +67,7 @@ para inverter a logica da função EMPTY -->
     
 </ul>
 
-
+<?php } //Fechamento do else ?>
 
 
 
